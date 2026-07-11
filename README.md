@@ -31,13 +31,9 @@ smart-task-analytics-dashboard/
 └── README.md
 ```
 
-## How to Run
-
 ## Application Screenshots
 
 ### Dashboard
-
-
 
 ![Dashboard Screenshot](Screenshot%202026-07-11%20215853.png)
 
