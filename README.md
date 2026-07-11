@@ -33,8 +33,13 @@ smart-task-analytics-dashboard/
 
 ## How to Run
 
-1. Simply open the `index.html` file in any modern web browser.
-2. No server setup, Node.js, or backend is required. Everything runs directly in the browser via `file://` protocol.
+## Application Screenshots
+
+### Dashboard
+
+
+
+![Dashboard Screenshot](Screenshot%202026-07-11%20215853.png)
 
 ## Technologies Used
 
