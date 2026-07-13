@@ -1,46 +1,45 @@
-# Cloud Security Posture Dashboard
-A sleek, real-time web application to visualize AWS cloud security findings and monitor your cloud environment's security posture.
+# Smart Task Analytics Dashboard
 
-## Tech Stack
-- Python
-- Flask
-- boto3
-- HTML
-- CSS
-- JavaScript
-- Chart.js
+A modern, responsive, and completely client-side task management dashboard with integrated analytics. Built using HTML, CSS, JavaScript, and LocalStorage—no frameworks or backend required.
 
-## Screenshots
+## Features
 
-![Dashboard Overview](screenshots/dashboard-overview.png)
-*The main dashboard view showing summary cards and severity distribution.*
+- **Task Management**: Create, read, update, and delete tasks.
+- **Categorization & Prioritization**: Assign tasks to categories (Work, Personal, Learning, Health) and set priority levels.
+- **Analytics Dashboard**: View real-time stats including total tasks, completion percentage, overdue count, and most active category.
+- **Dynamic Charts**: Visualize task distribution by Status and Category using Chart.js.
+- **Filtering System**: Filter tasks by status (All, Pending, Completed), category, or priority.
+- **Responsive Design**: A sleek, premium dark mode UI that adapts flawlessly from desktop to mobile screens.
+- **Local Storage**: All data is persisted securely in your browser's LocalStorage.
 
-![Findings Table](screenshots/findings-table.png)
-*Detailed security findings table with dynamic filtering by severity and category.*
+## Project Structure
 
-## Installation
+```
+smart-task-analytics-dashboard/
+├── index.html
+├── css/
+│   ├── style.css          # Main stylesheet with premium dark theme variables and styles
+│   └── responsive.css     # Media queries for mobile responsiveness
+├── js/
+│   ├── app.js             # Main application initialization and DOM event bindings
+│   ├── storage.js         # LocalStorage wrapper logic
+│   ├── tasks.js           # CRUD operations for tasks
+│   ├── analytics.js       # Calculation logic for stats and chart data
+│   └── charts.js          # Chart.js initialization and updates
+├── assets/
+│   └── icons/             # For future use (UI uses emoji/CSS for now)
+└── README.md
+```
 
-1. Clone the repo:
-   ```bash
-   git clone <repo-url>
-   ```
-2. Navigate into the project and create a virtual environment:
-   ```bash
-   python -m venv venv
-   
-   # Activate it on Windows:
-   venv\Scripts\activate
-   
-   # Activate it on macOS/Linux:
-   source venv/bin/activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Add AWS credentials (e.g., via `aws configure`) or skip this step to run in demo mode using sample data.
-5. Run the Flask server:
-   ```bash
-   python backend/app.py
-   ```
-6. Open `http://localhost:5000` in your browser (The Flask application automatically serves the frontend dashboard).
+## How to Run
+
+1. Simply open the `index.html` file in any modern web browser.
+2. No server setup, Node.js, or backend is required. Everything runs directly in the browser via `file://` protocol.
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Vanilla, CSS Variables, Flexbox, Grid)
+- Vanilla JavaScript (ES6+)
+- LocalStorage API
+- Chart.js (via CDN)

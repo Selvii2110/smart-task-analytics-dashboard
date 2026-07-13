@@ -46,7 +46,7 @@ const ChartManager = {
                     legend: {
                         position: 'bottom',
                         labels: {
-                            color: '#94a3b8',
+                            color: '#d1d5db',
                             font: {
                                 family: "'Inter', sans-serif",
                                 size: 12
@@ -55,9 +55,9 @@ const ChartManager = {
                         display: type === 'status' // Only show legend for doughnut
                     },
                     tooltip: {
-                        backgroundColor: '#1a1d2d',
-                        titleColor: '#f8fafc',
-                        bodyColor: '#f8fafc',
+                        backgroundColor: '#111111',
+                        titleColor: '#ffffff',
+                        bodyColor: '#ffffff',
                         borderColor: 'rgba(255, 255, 255, 0.1)',
                         borderWidth: 1,
                         padding: 12,
@@ -72,7 +72,7 @@ const ChartManager = {
                             color: 'rgba(255, 255, 255, 0.05)'
                         },
                         ticks: {
-                            color: '#94a3b8',
+                            color: '#d1d5db',
                             stepSize: 1
                         }
                     },
@@ -81,7 +81,7 @@ const ChartManager = {
                             display: false
                         },
                         ticks: {
-                            color: '#94a3b8'
+                            color: '#d1d5db'
                         }
                     }
                 } : {}
