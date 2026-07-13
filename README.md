@@ -31,6 +31,7 @@ smart-task-analytics-dashboard/
 └── README.md
 ```
 
+## Screenshot
 ![Smart Task Analytics Dashboard](Screenshot.png)
 
 ## Installation and Setup
